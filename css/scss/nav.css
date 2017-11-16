@@ -1,0 +1,81 @@
+.ham-menu {
+  height: 33px;
+  width: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+
+.bar {
+  height: 7px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute; }
+
+.bar:nth-child(1) {
+  position: absolute;
+  top: 0px; }
+
+.bar:nth-child(1).animate {
+  animation: ham-one .5s ease-in forwards running; }
+
+.bar:nth-child(1).animate-reverse {
+  animation: ham-one-reverse .5s ease-out forwards running; }
+
+/* bar two */
+.bar:nth-child(2) {
+  position: absolute;
+  top: 13px; }
+
+.bar:nth-child(2).animate {
+  animation: ham-two .5s ease-in forwards running; }
+
+.bar:nth-child(2).animate-reverse {
+  animation: ham-two-reverse .5s ease-out forwards running; }
+
+/*  bar three */
+.bar:nth-child(3) {
+  position: absolute;
+  top: 26px; }
+
+.bar:nth-child(3).animate {
+  animation: ham-three .5s ease-in forwards running; }
+
+.bar:nth-child(3).animate-reverse {
+  animation: ham-three-reverse .5s ease-out forwards running; }
+
+/* nav pop out */
+.nav {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: -100%;
+  left: 0; }
+
+.nav-ul {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  text-shadow: 2px 2px 2px #969696; }
+
+.nav-li {
+  margin-right: 10px;
+  list-style-type: none; }
+
+.nav.animate {
+  animation: nav-slide-out .5s ease-out forwards running; }
+
+.nav.animate-reverse {
+  animation: nav-slide-in .5s ease-in forwards running; }
+
+/*# sourceMappingURL=nav.css.map */

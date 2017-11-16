@@ -2,3 +2,12 @@
 @import "nav.scss";
 @import "universal.scss";
 @import "mixins.scss";
+@import "animations.scss";
+@import "header.scss";
+
+// fonts
+
+@font-face {
+    font-family: 'pink-floyd';
+    src: url('../fonts/pinkfloyd.ttf');
+}
