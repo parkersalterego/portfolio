@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
 .ham-menu {
   height: 33px;
   width: 50px;
@@ -65,7 +66,7 @@
   padding: 0;
   text-align: center;
   font-size: 40px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   text-shadow: 2px 2px 2px #969696; }
 
 .nav-li {
@@ -343,10 +344,9 @@ html, body {
   text-shadow: 4px 4px 2px #969696; }
 
 .services {
-  height: 100%;
-  width: 100%;
   text-align: center;
-  text-shadow: 2px 2px 2px #969696; }
+  text-shadow: 2px 2px 2px #969696;
+  font-family: 'Comfortaa', sans-serif; }
 
 .service-img-container {
   height: 200px;
@@ -379,6 +379,91 @@ html, body {
 
 .service-paragraph {
   margin: 0 40px 0 40px; }
+
+.skills {
+  background: #fff;
+  font-family: 'Comfortaa', sans-serif;
+  text-shadow: 2px 2px 2px #969696; }
+
+.skills-header {
+  height: 50px;
+  background: linear-gradient(to bottom, #222, #333);
+  color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(50, 50, 50, 0.75); }
+
+.skills-header-text {
+  text-align: center;
+  font-size: 30px;
+  margin: 0; }
+
+.skill-container-upper {
+  height: 150px;
+  width: 100%; }
+
+.skill-img {
+  height: 100px;
+  width: 100px; }
+
+.skill-title {
+  margin: 0; }
+
+.skill-container-lower {
+  height: 60px;
+  width: 100%; }
+
+.progress-bar {
+  width: 80%;
+  height: 20px;
+  background-color: #808080;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75); }
+
+.progress-bar-inner {
+  height: 20px;
+  border-radius: 10px; }
+
+.value-one {
+  background-color: #f16529;
+  width: 80%; }
+
+.value-two {
+  background-color: #2fa0de;
+  width: 80%; }
+
+.value-three {
+  background-color: #614789;
+  width: 80%; }
+
+.value-four {
+  background-color: #cd669a;
+  width: 80%; }
+
+.value-five {
+  background-color: #f0db4f;
+  width: 80%; }
+
+.value-six {
+  background-color: #90c53f;
+  width: 80%; }
+
+.value-seven {
+  background-color: #dd0330;
+  width: 80%; }
+
+.value-eight {
+  background-color: #69b23f;
+  width: 80%; }
+
+.progress-indicators {
+  width: 80%;
+  height: 20px; }
+
+.indicator-left {
+  float: left; }
+
+.indicator-right {
+  float: right; }
 
 @font-face {
   font-family: 'pink-floyd';
