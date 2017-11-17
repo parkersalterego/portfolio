@@ -536,6 +536,33 @@ html, body {
   margin: 10px 5vh 10px 5vh;
   text-align: center; }
 
+form {
+  margin: 10px 0 10px 0; }
+
+.contact {
+  font-family: 'Comfortaa', sans-serif;
+  text-shadow: 2px 2px 2px #969696; }
+
+.contact-header {
+  height: 50px;
+  background: linear-gradient(to bottom, #222, #333);
+  color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(50, 50, 50, 0.75);
+  margin: 0; }
+
+.contact-heading {
+  color: #fff;
+  margin: 0; }
+
+.contact-text-container {
+  height: 180px;
+  width: 100%; }
+
+.contact-text {
+  margin: 0 10vw 0 10vw;
+  text-align: center; }
+
 @font-face {
   font-family: 'pink-floyd';
   src: url("../fonts/pinkfloyd.ttf"); }
