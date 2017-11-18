@@ -3,7 +3,8 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr;
   text-align: center;
-  font-family: "Comfortaa", sans-seriff; }
+  font-family: 'Comfortaa', sans-seriff;
+  text-shadow: 2px 2px 2px #969696; }
 
 .services-d-container-one {
   grid-column: 1/5;
