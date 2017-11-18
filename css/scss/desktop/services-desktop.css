@@ -1,0 +1,37 @@
+.services-d {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 300px;
+  text-align: center;
+  font-family: "Comfortaa", sans-seriff; }
+
+.services-d-container-one {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  display: grid; }
+
+.services-d-container-two {
+  grid-column: 5/9;
+  grid-row: 1/2;
+  display: grid; }
+
+.services-d-container-three {
+  grid-column: 9/13;
+  grid-row: 1/2;
+  display: grid; }
+
+.services-d-img {
+  height: 20vw;
+  width: 20vw;
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 50%;
+  align-self: start;
+  justify-self: center;
+  margin-top: 10px; }
+
+.services-d-paragraph {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=services-desktop.css.map */
