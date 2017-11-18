@@ -716,6 +716,72 @@ input {
   height: 20px;
   border-radius: 10px; }
 
+.work-d {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  font-family: 'Comfortaa', sans-seriff;
+  text-shadow: 2px 2px 2px #969696; }
+
+.work-d-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.work-d-container-one {
+  height: 400px;
+  grid-column: 1/7;
+  grid-row: 1/2; }
+
+.work-d-container-two {
+  height: 400px;
+  grid-column: 1/7;
+  grid-row: 2/3; }
+
+.work-d-container-three {
+  height: 400px;
+  grid-column: 1/7;
+  grid-row: 3/4; }
+
+.work-d-container-four {
+  height: 400px;
+  grid-column: 7/13;
+  grid-row: 1/2; }
+
+.work-d-container-five {
+  height: 400px;
+  grid-column: 7/13;
+  grid-row: 2/3; }
+
+.work-d-container-six {
+  height: 400px;
+  grid-column: 7/13;
+  grid-row: 3/4; }
+
+.work-d-title-container {
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.work-d-site-title {
+  margin: 0;
+  font-size: 40px; }
+
+.work-d-site-btn {
+  width: 150px;
+  height: 40px;
+  font-size: 30px;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75); }
+
 @font-face {
   font-family: 'pink-floyd';
   src: url("../fonts/pinkfloyd.ttf"); }
