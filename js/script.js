@@ -46,6 +46,8 @@ const workD = document.getElementById('workD');
 const aboutD = document.getElementById('aboutD');
 const contactD = document.getElementById('contactD');
 
+const desktop = document.getElementById('desktop');
+
 
 transitionSections = [services, skills, work, about, contact];
 transitionSectionsD = {servicesD, skillsD, workD, aboutD, contactD};
@@ -55,16 +57,12 @@ window.addEventListener('resize', () => {
         transitionSections.forEach((element) => {
             element.classList.add('display-none');
         });
-        transitionSectionsD.forEach((element) => {
-            element.classList.remove('display-none');
-        });
+        desktop.classList.remove('display-none');
     } else if (window.innerWidth < 700 ) {
         transitionSections.forEach((element) => {
             element.classList.remove('display-none');
         });
-        transitionSectionsD.forEach((element) => {
-            element.classList.add('display-none');
-        });
+        desktop.classList.add('display-none');
     }
 });
 
@@ -73,18 +71,14 @@ document.addEventListener('DOMContentLoaded', function() {
         transitionSections.forEach((element) => {
             element.classList.add('display-none');
         });
-        transitionSectionsD.forEach((element) => {
-            element.classList.remove('display-none');
-        });
+        desktop.classList.remove('display-none');
     } else if (window.innerWidth < 700 ) {
         transitionSections.forEach((element) => {
             element.classList.remove('display-none');
         });
-        transitionSectionsD.forEach((element) => {
-            element.classList.add('display-none');
-        });
+        desktop.classList.add('display-none');
     }
-}, false);
+});
 
 console.log(hamMenu.getBoundingClientRect());
 
