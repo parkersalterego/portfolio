@@ -40,16 +40,30 @@ const work = document.getElementById('work');
 const about = document.getElementById('about');
 const contact = document.getElementById('contact');
 
+const servicesD = document.getElementById('servicesD');
+const skillsD = document.getElementById('skillsD');
+const workD = document.getElementById('workD');
+const aboutD = document.getElementById('aboutD');
+const contactD = document.getElementById('contactD');
+
+
 transitionSections = [services, skills, work, about, contact];
+transitionSectionsD = {servicesD, skillsD, workD, aboutD, contactD};
 
 window.addEventListener('resize', () => {
     if (window.innerWidth > 700 ) {
         transitionSections.forEach((element) => {
             element.classList.add('display-none');
         });
+        transitionSectionsD.forEach((element) => {
+            element.classList.remove('display-none');
+        });
     } else if (window.innerWidth < 700 ) {
         transitionSections.forEach((element) => {
             element.classList.remove('display-none');
+        });
+        transitionSectionsD.forEach((element) => {
+            element.classList.add('display-none');
         });
     }
 });
@@ -59,9 +73,15 @@ document.addEventListener('DOMContentLoaded', function() {
         transitionSections.forEach((element) => {
             element.classList.add('display-none');
         });
+        transitionSectionsD.forEach((element) => {
+            element.classList.remove('display-none');
+        });
     } else if (window.innerWidth < 700 ) {
         transitionSections.forEach((element) => {
             element.classList.remove('display-none');
+        });
+        transitionSectionsD.forEach((element) => {
+            element.classList.add('display-none');
         });
     }
 }, false);
