@@ -1,0 +1,140 @@
+/* animations */
+
+@keyframes ham-one {
+    0%{
+      top: 0px;
+      transform: rotate(0deg);
+  
+    }
+    35%{
+      top: 13px;
+      transform: rotate(0deg);
+  
+    }
+    65%{
+      top: 13px;
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(-45deg);
+      top: 13px;
+  
+    }
+  }
+  
+  @keyframes ham-two {
+    0%{
+      opacity: 1;
+  
+    }
+    15%{
+      opacity: 0;
+  
+    }
+    100%{
+      opacity: 0;
+  
+    }
+  }
+  
+  @keyframes ham-three {
+    0%{
+      top: 26px;
+      transform: rotate(0deg);
+  
+    }
+    35%{
+      top: 13px;
+      transform: rotate(0deg);
+  
+    }
+    65%{
+      top: 13px;
+      transform: rotate(0deg);
+  
+    }
+    100%{
+      transform: rotate(45deg);
+      top: 13px;
+    }
+  }
+
+  @keyframes ham-one-reverse {
+    0%{
+      top: 13px;
+      transform: rotate(-45deg);
+  
+    }
+    35%{
+      top: 13px;
+      transform: rotate(0deg);
+  
+    }
+    65%{
+      top: 13px;
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(0deg);
+      top: 0px;
+  
+    }
+  }
+  
+  @keyframes ham-two-reverse {
+    0%{
+      opacity: 0;
+  
+    }
+    15%{
+      opacity: 0;
+  
+    }
+    100%{
+      opacity: 1;
+  
+    }
+  }
+  
+  @keyframes ham-three-reverse {
+    0%{
+      top: 13px;
+      transform: rotate(45deg);
+  
+    }
+    35%{
+      top: 13px;
+      transform: rotate(0deg);
+  
+    }
+    65%{
+      top: 13px;
+      transform: rotate(0deg);
+  
+    }
+    100%{
+      transform: rotate(0deg);
+      top: 26px;
+    }
+  }
+
+  @keyframes nav-slide-out {
+    0% {
+        top: -100%;
+
+    }
+    100% {
+        top: 0%;
+
+    }
+}
+@keyframes nav-slide-in {
+    0% {
+        top: 0%;
+
+    }
+    100% {
+        top: -100%;
+
+    }
+}
