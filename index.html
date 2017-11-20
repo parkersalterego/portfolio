@@ -433,7 +433,7 @@
 
   <!-- services -->
 
-  <div class="services-d">
+  <div class="services-d display-none" id="servicesD">
     <div class="services-d-container-one">
       <div class="services-d-img img-fill design"></div>
       <h2 class="services-d-title">Design</h2>
@@ -459,7 +459,7 @@
 
   <!-- skills -->
 
-  <div class="skills-d">
+  <div class="skills-d display-none" id="skillsD">
 
     <!-- container one -->
 
@@ -725,7 +725,7 @@
 
   <!-- start work desktop -->
 
-  <div class="work-d">
+  <div class="work-d display-none" id="workD">
 
     <div class="work-d-container work-d-container-one img-fill blanket-bg">
       <div class="work-d-title-container">
@@ -773,12 +773,29 @@
 
   <!-- start about desktop -->
 
-  <div class="about-d">
+  <div class="about-d display-none" id="aboutD">
 
     <div class="about-d-img img-fill"></div>
       <div class="about-d-paragraph">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum velit quasi numquam debitis obcaecati inventore voluptatum nam repellendus amet. Deserunt commodi rerum quaerat ab reprehenderit rem fuga pariatur quidem assumenda.
       </div>
+
+  </div>
+
+  <!-- start contact desktop -->
+
+  <div class="contact-d display-none" id="contactD">
+
+    <div class="contact-d-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eius animi non?</div>
+    <form class="contact-d-form flex flex-column align-center justify-center" action="https://formspree.io/your@email.com" method="POST">
+      <label class="contact-d-form-label" for="name">Name</label>
+      <input class="contact-d-input-small" type="text" name="name">
+      <label class="contact-d-form-label" for="_replyto">Email</label>
+      <input class="contact-d-input-small" type="email" name="_replyto">
+      <label class="contact-d-form-label" for="comments">Comments</label>
+      <input class="contact-d-input-large" type="text" name="comments">
+      <input class="work-d-site-btn" type="submit" value="Send">
+    </form>
 
   </div>
 

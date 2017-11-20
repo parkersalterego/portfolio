@@ -813,6 +813,41 @@ input {
   margin-left: 15vw;
   margin-right: 15vw; }
 
+.contact-d {
+  height: 650px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr); }
+
+.contact-d-paragraph {
+  grid-column: 1/13;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  width: 500px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px; }
+
+.contact-d-form {
+  grid-column: 1/13;
+  grid-row: 2/4;
+  align-self: center;
+  justify-self: center; }
+
+.contact-d-form-label {
+  font-size: 18px; }
+
+.contact-d-input-small {
+  height: 50px;
+  width: 500px;
+  margin-bottom: 20px; }
+
+.contact-d-input-large {
+  height: 150px;
+  width: 500px; }
+
 @font-face {
   font-family: 'pink-floyd';
   src: url("../fonts/pinkfloyd.ttf"); }
