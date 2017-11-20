@@ -14,7 +14,16 @@
 
 .site {
   height: calc(100vh / 3);
-  width: 100%; }
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 15px;
+  margin-left: 5%; }
+
+.spacer-15px-top {
+  margin-top: 15px; }
+
+.spacer-15px-bottom {
+  margin-bottom: 15px; }
 
 .blanket-bg {
   background-image: url("../img/site-m.jpeg"); }
@@ -26,15 +35,31 @@
 .title-container {
   height: 30px;
   width: 100%;
-  background-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.85); }
 
 .site-btn {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000;
   border: 1px solid #000;
   margin-top: 20px;
   box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75); }
 
+.site-btn a {
+  color: #000; }
+
 .btn-down {
   box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75); }
+
+.geek-tools {
+  background-image: url("../img/geekTools.jpg"); }
+
+.weather-api {
+  background-image: url("../img/weather-api.jpg"); }
+
+.responsive-design-final {
+  background-image: url("../img/responsive-design-final.jpg"); }
+
+.restaurante {
+  background-image: url("../img/restaurante.jpg"); }
 
 /*# sourceMappingURL=work.css.map */

@@ -4,7 +4,8 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 1fr 1fr;
   font-family: 'Comfortaa', sans-seriff;
-  text-shadow: 2px 2px 2px #969696; }
+  text-shadow: 2px 2px 2px #969696;
+  color: #fff; }
 
 .about-d-img {
   height: 250px;
@@ -15,7 +16,7 @@
   grid-row: 1/2;
   align-self: center;
   justify-self: center;
-  margin-top: 20px;
+  margin-top: 57.5px;
   background-image: url("../img/me-diamond.jpg");
   box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75); }
 
