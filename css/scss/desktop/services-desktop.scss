@@ -1,9 +1,10 @@
 .services-d {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 300px; 
+    grid-template-rows: 1fr; 
     text-align: center;
-    font-family: 'Comfortaa', sans-seriff
+    font-family: 'Comfortaa', sans-seriff;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 }
 
 .services-d-container-one {
@@ -29,8 +30,8 @@
 .services-d-img {
     height: 20vw;
     width: 20vw;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 250px;
+    max-width: 250px;
     border-radius: 50%;
     align-self: start;
     justify-self: center;
@@ -43,8 +44,7 @@
 }
 
 .services-d-paragraph {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 10px 20px 40px 20px;
 }
 
 
