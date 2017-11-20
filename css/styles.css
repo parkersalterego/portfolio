@@ -782,6 +782,37 @@ input {
   margin-top: 20px;
   box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75); }
 
+.about-d {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr 1fr;
+  font-family: 'Comfortaa', sans-seriff;
+  text-shadow: 2px 2px 2px #969696; }
+
+.about-d-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: #000;
+  grid-column: 1/13;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  margin-top: 20px;
+  background-image: url("../img/me-diamond.jpg");
+  box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75); }
+
+.about-d-paragraph {
+  font-size: 20px;
+  grid-column: 1/13;
+  grid-row: 2/3;
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+  margin-left: 15vw;
+  margin-right: 15vw; }
+
 @font-face {
   font-family: 'pink-floyd';
   src: url("../fonts/pinkfloyd.ttf"); }
