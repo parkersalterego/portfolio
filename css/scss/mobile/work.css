@@ -29,9 +29,12 @@
   background-color: #fff; }
 
 .site-btn {
-  background-color: #000;
-  border: 1px solid #fff;
-  color: #fff;
-  margin-top: 20px; }
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75); }
+
+.btn-down {
+  box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75); }
 
 /*# sourceMappingURL=work.css.map */

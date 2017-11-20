@@ -1,0 +1,50 @@
+.services {
+  text-align: center;
+  text-shadow: 2px 2px 2px #969696;
+  font-family: 'Comfortaa', sans-serif; }
+
+.services-header {
+  height: 50px;
+  background: linear-gradient(to bottom, #222, #333);
+  color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(50, 50, 50, 0.75); }
+
+.services-heading {
+  text-align: center;
+  font-size: 30px;
+  margin: 0; }
+
+.service-img-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.service-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75); }
+
+.design {
+  background-image: url("../img/design.jpeg"); }
+
+.development {
+  background-image: url("../img/development.jpeg"); }
+
+.social {
+  background-image: url("../img/social.jpeg"); }
+
+.service-text-container {
+  height: 130px;
+  width: 100%; }
+
+.service-title {
+  margin-top: 0; }
+
+.service-paragraph {
+  margin: 0 40px 0 40px; }
+
+/*# sourceMappingURL=services.css.map */

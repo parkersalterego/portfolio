@@ -1,147 +1,57 @@
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0px;
-  padding: 0px; }
+/*
+Error: File to import not found or unreadable: header.scss.
+       Load path: C:/Users/NON3ALIV3/Documents/projects/portfolio/css/scss
+        on line 6 of C:\Users\NON3ALIV3\Documents\projects\portfolio\css\scss\main.scss
 
-.primary-color {
-  color: #000000; }
+1: @import "vars.scss";
+2: @import "nav.scss";
+3: @import "universal.scss";
+4: @import "mixins.scss";
+5: @import "animations.scss";
+6: @import "header.scss";
+7: @import "footer.scss";
+8: 
+9: // mobile
+10: 
+11: @import "mobile/services.scss";
 
-.secondary-color {
-  color: #fff; }
-
-.primary-bg-color {
-  background-color: #000000; }
-
-.secondary-bg-color {
-  background-color: #fff; }
-
-.xs-height {
-  height: 50px; }
-
-.sm-height {
-  height: 100px; }
-
-.md-height {
-  height: 150px; }
-
-.lg-height {
-  height: 250px; }
-
-.xl-height {
-  height: 500px; }
-
-.full-vh {
-  height: 100vh; }
-
-.pink-floyd {
-  font-family: 'pink-floyd', 'cursive'; }
-
-.xs-font {
-  font-size: 0.5em; }
-
-.sm-font {
-  font-size: 1em; }
-
-.md-font {
-  font-size: 1.25em; }
-
-.lg-font {
-  font-size: 1.5em; }
-
-.xl-font {
-  font-size: 2em; }
-
-.xxl-font {
-  font-size: 3em; }
-
-.display-block {
-  display: block; }
-
-.display-inline-block {
-  display: inline-block; }
-
-.display-none {
-  display: none; }
-
-.margin-null {
-  margin: 0; }
-
-.padding-null {
-  padding: 0; }
-
-.fill {
-  height: 100%;
-  width: 100%; }
-
-.flex {
-  display: flex; }
-
-.flex-row {
-  flex-direction: row; }
-
-.flex-column {
-  flex-direction: column; }
-
-.justify-start {
-  justify-content: flex-start; }
-
-.justify-end {
-  justify-content: flex-end; }
-
-.justify-center {
-  justify-content: center; }
-
-.justify-space-around {
-  justify-content: space-around; }
-
-.justify-space-between {
-  justify-content: space-between; }
-
-.align-start {
-  align-items: flex-start; }
-
-.align-end {
-  align-items: flex-end; }
-
-.align-center {
-  align-items: center; }
-
-.align-space-around {
-  align-items: space-around; }
-
-.align-space-between {
-  align-items: space-between; }
-
-.position-relative {
-  position: relative; }
-
-.position-fixed {
-  position: fixed; }
-
-.position-absolute {
-  position: absolute; }
-
-.top-0 {
-  top: 0px; }
-
-.bottom-0 {
-  bottom: 0px; }
-
-.left-0 {
-  left: 0px; }
-
-.right-0 {
-  right: 0px; }
-
-.img-fill {
-  background-size: cover;
-  background-position: center; }
-
-.attatchment-fixed {
-  background-attachment: fixed; }
-
-.hidden {
-  visibility: hidden; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+C:\Users\NON3ALIV3\Documents\projects\portfolio\css\scss\main.scss:6
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/import_node.rb:45:in `import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: header.scss.\A        Load path: C:/Users/NON3ALIV3/Documents/projects/portfolio/css/scss\A         on line 6 of C:\Users\NON3ALIV3\Documents\projects\portfolio\css\scss\main.scss\A \A 1: @import \"vars.scss\";\A 2: @import \"nav.scss\";\A 3: @import \"universal.scss\";\A 4: @import \"mixins.scss\";\A 5: @import \"animations.scss\";\A 6: @import \"header.scss\";\A 7: @import \"footer.scss\";\A 8: \A 9: // mobile\A 10: \A 11: @import \"mobile/services.scss\";"; }
