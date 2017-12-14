@@ -19,7 +19,7 @@ hamMenu.addEventListener('click', () => {
         // console.log('second');
         navAnimation.forEach(function(element){
             element.classList.add('animate-reverse');
-            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
         });
         x++;
 
@@ -55,7 +55,7 @@ hamMenuD.addEventListener('click', () => {
         // console.log('second');
         navAnimationD.forEach(function(element){
             element.classList.add('animate-reverse');
-            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
         });
         x++;
 
@@ -72,10 +72,6 @@ hamMenuD.addEventListener('click', () => {
 
 const desktop = document.getElementById('desktop');
 const mobile = document.getElementById('mobile');
-
-
-transitionSections = [services, skills, work, about, contact];
-transitionSectionsD = {servicesD, skillsD, workD, aboutD, contactD};
 
 window.addEventListener('resize', () => {
     if (window.innerWidth > 700 ) {
@@ -96,4 +92,27 @@ document.addEventListener('DOMContentLoaded', function() {
         desktop.classList.add('display-none');
     }
 });
+
+// nav behavior
+
+const navLi = document.querySelectorAll('.nav-li');
+const nav = document.querySelector('.nav');
+const navD = document.querySelector('.nav-desktop');
+const bar = document.querySelector('.bar');
+
+for(i = 0; i < navLi.length; i++) {
+    navLi[i].addEventListener('click', () => {
+        navAnimationD.forEach(function(element){
+            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
+        });
+
+        navAnimation.forEach(function(element){
+            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
+        });
+        
+        console.log('working');
+    });
+}
 
