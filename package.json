@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio site for Adam Weaver ('http://parkersalterego.github.io/portfolio')",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "node-sass css/scss/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkersalterego/portfolio.git"
+  },
+  "author": "Adam Weaver ('https://github.com/parkersalterego')",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parkersalterego/portfolio/issues"
+  },
+  "homepage": "https://github.com/parkersalterego/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
