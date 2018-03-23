@@ -1,6 +1,7 @@
 .about {
   font-family: 'Comfortaa', sans-serif;
-  text-shadow: 2px 2px 2px #969696; }
+  text-shadow: 2px 2px 2px #969696;
+  color: #fff; }
 
 .about-header {
   height: 50px;

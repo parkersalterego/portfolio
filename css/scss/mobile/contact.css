@@ -3,7 +3,8 @@ form {
 
 .contact {
   font-family: 'Comfortaa', sans-serif;
-  text-shadow: 2px 2px 2px #969696; }
+  text-shadow: 2px 2px 2px #969696;
+  color: #fff; }
 
 .contact-header {
   height: 50px;
@@ -27,6 +28,7 @@ form {
 
 input {
   margin-bottom: 5px;
-  box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75); }
+  box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75);
+  color: #000; }
 
 /*# sourceMappingURL=contact.css.map */

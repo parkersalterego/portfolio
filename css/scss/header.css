@@ -9,7 +9,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -2; }
+  z-index: 0; }
 
 .header-bg {
   background-image: url("../img/figure.jpeg");
@@ -18,7 +18,7 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
@@ -30,7 +30,8 @@
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  margin-top: 30px; }
+  margin-top: 30px;
+  z-index: 2; }
 
 .header-text {
   font-size: 40px;

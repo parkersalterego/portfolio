@@ -1,0 +1,77 @@
+.work-d {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30px repeat(6, 1fr) 30px repeat(6, 1fr) 30px;
+  grid-template-rows: 30px 1fr 30px 1fr 30px 1fr 30px;
+  font-family: 'Comfortaa', sans-seriff;
+  text-shadow: 2px 2px 2px #969696; }
+
+.work-d-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 400px; }
+
+.work-d-container-one {
+  grid-column: 2/8;
+  grid-row: 2/3; }
+
+.work-d-container-two {
+  grid-column: 2/8;
+  grid-row: 4/5; }
+
+.work-d-container-three {
+  grid-column: 9/15;
+  grid-row: 4/5; }
+
+.work-d-container-four {
+  grid-column: 9/15;
+  grid-row: 2/3; }
+
+.work-d-container-five {
+  grid-column: 2/8;
+  grid-row: 6/7; }
+
+.work-d-container-six {
+  grid-column: 9/15;
+  grid-row: 6/7; }
+
+.work-d-title-container {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.work-d-site-title {
+  margin: 0;
+  font-size: 40px; }
+
+.work-d-site-btn {
+  width: 150px;
+  height: 40px;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid #000;
+  color: #000;
+  margin-top: 20px;
+  box-shadow: 3px 3px 3px 0px rgba(50, 50, 50, 0.75); }
+
+.work-d-site-btn a {
+  color: #000; }
+
+@media only screen and (max-width: 1300px) {
+  .work-d-container {
+    height: 350px; } }
+@media only screen and (max-width: 1000px) {
+  .work-d-container {
+    height: 300px; } }
+@media only screen and (max-width: 800px) {
+  .work-d-container {
+    height: 250px; } }
+
+/*# sourceMappingURL=work-desktop.css.map */

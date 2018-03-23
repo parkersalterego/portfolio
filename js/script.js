@@ -19,7 +19,7 @@ hamMenu.addEventListener('click', () => {
         // console.log('second');
         navAnimation.forEach(function(element){
             element.classList.add('animate-reverse');
-            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
         });
         x++;
 
@@ -34,58 +34,85 @@ hamMenu.addEventListener('click', () => {
     } 
 });
 
-const services = document.getElementById('services');
-const skills = document.getElementById('skills');
-const work = document.getElementById('work');
-const about = document.getElementById('about');
-const contact = document.getElementById('contact');
+const hamMenuD = document.getElementById('hamMenuD');
+const barOneD = document.getElementById('barOneD');
+const barTwoD = document.getElementById('barTwoD');
+const barThreeD = document.getElementById('barThreeD');
+const navBarD = document.getElementById('navBarD');
 
-const servicesD = document.getElementById('servicesD');
-const skillsD = document.getElementById('skillsD');
-const workD = document.getElementById('workD');
-const aboutD = document.getElementById('aboutD');
-const contactD = document.getElementById('contactD');
+const navAnimationD = [barOneD, barTwoD, barThreeD, navBarD];
 
+ 
+hamMenuD.addEventListener('click', () => {
+    if(x === 0){
+        // console.log('first');
+        navAnimationD.forEach(function(element){
+            element.classList.add('animate');
+        });
+        x++;
 
-transitionSections = [services, skills, work, about, contact];
-transitionSectionsD = {servicesD, skillsD, workD, aboutD, contactD};
+    } else if(x % 2 === 1 ){
+        // console.log('second');
+        navAnimationD.forEach(function(element){
+            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
+        });
+        x++;
+
+    } else {
+        // console.log('third');
+        navAnimationD.forEach(function(element){
+            element.classList.remove('animate-reverse');
+            element.classList.add('animate');
+        });
+        x--;
+
+    } 
+});
+
+const desktop = document.getElementById('desktop');
+const mobile = document.getElementById('mobile');
 
 window.addEventListener('resize', () => {
     if (window.innerWidth > 700 ) {
-        transitionSections.forEach((element) => {
-            element.classList.add('display-none');
-        });
-        transitionSectionsD.forEach((element) => {
-            element.classList.remove('display-none');
-        });
+        mobile.classList.add('display-none');
+        desktop.classList.remove('display-none');
     } else if (window.innerWidth < 700 ) {
-        transitionSections.forEach((element) => {
-            element.classList.remove('display-none');
-        });
-        transitionSectionsD.forEach((element) => {
-            element.classList.add('display-none');
-        });
+        mobile.classList.remove('display-none');
+        desktop.classList.add('display-none');
     }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
     if (window.innerWidth > 700 ) {
-        transitionSections.forEach((element) => {
-            element.classList.add('display-none');
-        });
-        transitionSectionsD.forEach((element) => {
-            element.classList.remove('display-none');
-        });
+        mobile.classList.add('display-none');
+        desktop.classList.remove('display-none');
     } else if (window.innerWidth < 700 ) {
-        transitionSections.forEach((element) => {
-            element.classList.remove('display-none');
-        });
-        transitionSectionsD.forEach((element) => {
-            element.classList.add('display-none');
-        });
+        mobile.classList.remove('display-none');
+        desktop.classList.add('display-none');
     }
-}, false);
+});
 
-console.log(hamMenu.getBoundingClientRect());
+// nav behavior
 
-console.log(services.getBoundingClientRect());
+const navLi = document.querySelectorAll('.nav-li');
+const nav = document.querySelector('.nav');
+const navD = document.querySelector('.nav-desktop');
+const bar = document.querySelector('.bar');
+
+for(i = 0; i < navLi.length; i++) {
+    navLi[i].addEventListener('click', () => {
+        navAnimationD.forEach(function(element){
+            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
+        });
+
+        navAnimation.forEach(function(element){
+            element.classList.add('animate-reverse');
+            element.classList.remove('animate');
+        });
+        
+        console.log('working');
+    });
+}
+

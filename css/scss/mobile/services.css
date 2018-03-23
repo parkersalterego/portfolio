@@ -1,7 +1,8 @@
 .services {
   text-align: center;
   text-shadow: 2px 2px 2px #969696;
-  font-family: 'Comfortaa', sans-serif; }
+  font-family: 'Comfortaa', sans-serif;
+  color: #fff; }
 
 .services-header {
   height: 50px;
