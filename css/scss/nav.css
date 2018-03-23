@@ -6,7 +6,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 4; }
+  z-index: 4; 
+
+}
+
+.ham-menu:hover {
+  cursor: pointer;
+}
 
 .bar {
   height: 7px;

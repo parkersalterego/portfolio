@@ -8,6 +8,8 @@
   top: 0;
   left: 0;
   z-index: 4; }
+  .ham-menu:hover {
+    cursor: pointer; }
 
 .bar {
   height: 7px;
@@ -253,6 +255,7 @@ html, body {
   100% {
     transform: rotate(-45deg);
     top: 13px; } }
+
 @keyframes ham-two {
   0% {
     opacity: 1; }
@@ -260,6 +263,7 @@ html, body {
     opacity: 0; }
   100% {
     opacity: 0; } }
+
 @keyframes ham-three {
   0% {
     top: 26px;
@@ -273,6 +277,7 @@ html, body {
   100% {
     transform: rotate(45deg);
     top: 13px; } }
+
 @keyframes ham-one-reverse {
   0% {
     top: 13px;
@@ -286,6 +291,7 @@ html, body {
   100% {
     transform: rotate(0deg);
     top: 0px; } }
+
 @keyframes ham-two-reverse {
   0% {
     opacity: 0; }
@@ -293,6 +299,7 @@ html, body {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 @keyframes ham-three-reverse {
   0% {
     top: 13px;
@@ -306,16 +313,19 @@ html, body {
   100% {
     transform: rotate(0deg);
     top: 26px; } }
+
 @keyframes nav-slide-out {
   0% {
     top: -100%; }
   100% {
     top: 0%; } }
+
 @keyframes nav-slide-in {
   0% {
     top: 0%; }
   100% {
     top: -100%; } }
+
 .header {
   height: 100vh;
   width: 100%; }
@@ -582,6 +592,9 @@ footer {
 .restaurante {
   background-image: url("../img/restaurante.jpg"); }
 
+.financial-depot {
+  background-image: url("../img/financialDepot.png"); }
+
 .about {
   font-family: 'Comfortaa', sans-serif;
   text-shadow: 2px 2px 2px #969696;
@@ -835,12 +848,15 @@ input {
 @media only screen and (max-width: 1300px) {
   .work-d-container {
     height: 350px; } }
+
 @media only screen and (max-width: 1000px) {
   .work-d-container {
     height: 300px; } }
+
 @media only screen and (max-width: 800px) {
   .work-d-container {
     height: 250px; } }
+
 .about-d {
   height: 500px;
   display: grid;
@@ -930,5 +946,3 @@ input {
 @font-face {
   font-family: 'pink-floyd';
   src: url("../fonts/pinkfloyd.ttf"); }
-
-/*# sourceMappingURL=styles.css.map */
